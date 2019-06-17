@@ -8,6 +8,8 @@ public class StepDefinition {
 	
 	WebDriver driver;
 	
+	//This script was Designed by QA Bayo, Just added project to GitHub, configured Jenkins to build each time there is new commit using Webhooks
+	
 	@Given("^I go to \"([^\"]*)\"$")
 	public void i_go_to(String arg1){
 		
